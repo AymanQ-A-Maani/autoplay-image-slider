@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 1px solid black;
+    width: 640px;
+    height: 640px;
+    margin-top: 151px;
+    margin-left: 511px;
+}
+
+
+.images-parent{
+    position: relative;
+    width: 640px;
+    height: 640px;
+}
+.music-parent{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    animation-name: fade-in3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.music{
+    /* border: 1px solid black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* animation-name: fade-in3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes fade-in3{
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    65%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+         opacity: 0;   
+    }
+}
+.pain-parent{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    animation-name: fade-in2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.pain{ 
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* animation-name: fade-in2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes fade-in2{
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    65%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+         opacity: 0;   
+    }
+}
+.eye2-parent{
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.eye2{
+    /* position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    height: 100%;
+    width: 100%;
+}
+.eye-parent{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    animation-name: fade-in;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.eye{
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* animation-name: fade-in;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    45%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    65%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+         opacity: 0;   
+    }
+}
+
+
+
+
+/* .navbar{
+    padding: 1px;
+    margin-top: 190px;
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+
+}
+
+.list-parent{
+    padding: 0;
+    background-color: red;
+    margin-top: 81px;
+    margin-left: 895px;
+    list-style-type: none;
+    width: fit-content;
+}
+
+.list-items{
+width:100%
+}
+
+.list-item-a{
+width: fit-content;
+color: black;
+text-decoration: none;
+} 
+
+.list-items::after{
+    content: "\f105";
+    color: white;
+    margin-top: 1px;
+    margin-left: 1px;
+    font: normal normal normal 9px/1 FontAwesome;
+}
+
+
+.overlay{
+    position: absolute;
+    width: 265px;
+    height: 0px;
+    margin-left: -10px;
+    overflow: hidden;
+    transition: all .7s;
+}
+
+.list-items:hover .overlay{
+    height: 360px;
+} 
+
+.dropdown-parent{
+
+    list-style-type: none;
+    position: absolute;
+    width: 131px;
+    height: 206px;
+    background-color: purple;
+    /* transition: all .7s; */
+}
+
+
+
+.dropdown-list-items{
+    margin-left: -38px;
+    padding: 10px;
+}
+
+.dropown-list-item-a{
+    text-decoration: none;
+    color: black;
+}
+
+.sublist-dropdown-parent{
+    list-style-type: none;
+    position: absolute;
+    width: 131px;
+    height: 206px;
+    background-color: purple;
+    margin-left: 119px;
+    margin-top: -28px;
+    opacity: 0;
+    display: block;
+    transition: all .7s;
+}
+
+.sublist-dropdown-items{
+    margin-left: -18px;
+    padding: 10px;
+}
+
+.sublist-dropdown-item-a{
+    text-decoration: none;
+    color: black;
+}
+
+.sublist-hvr::after{
+    content: "\f105";
+    color: white;
+    margin-top: 1px;
+    margin-left: 1px;
+    font: normal normal normal 9px/1 FontAwesome;
+}
+
+.sublist-hvr:hover .sublist-dropdown-parent{
+    opacity: 1;
+    display: block;
+}
+
+
+
+
+ */
+
+
+/* span {
+    background-color: aqua;
+  }
+  
+  div > span {
+    background-color: yellow;
+  } */
+
+
+
+/* div > ul{
+    padding: 0;
+}
+
+div > ul ul {
+    display: none;
+}
+
+div > ul > li:hover > ul,
+div > ul > li > ul > li:hover > ul {
+  display: block;
+}    */
+
+
+
+
+
+
+/* div{
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+}
+
+
+div  ul ul ul{
+    display: none;
+}
+
+div  ul li ul li{
+    display: none;
+}
+
+div  ul  li  ul  li  ul  li{
+    color: white;
+    display: none;
+}
+
+div:hover ul li{
+    display: block;
+} */
+
+
+
+
+
+
+/* .navbar{
+    padding: 1px;
+    margin: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 70px;
+    background-color: grey;
+}
+
+.box-parent{
+    box-sizing: content-box;
+    box-sizing: border-box;
+    padding: 1px;
+    background-color: blue;
+    border: 1px;
+    height: 70px;
+    width: 900px;
+}
+
+.list-items{
+    position: relative;
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: 289px;
+    margin-top: 48px;
+    width: 330px;
+    height: 400px;
+    background-color: red;
+}
+
+.list-item{
+    position: absolute;
+    width: fit-content;
+    margin-left: 102px;
+}
+
+
+.list-item-a{
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-parent{
+    background-color: blueviolet; 
+    
+    width: 115px;
+    height: 132px;
+    list-style-type: none;
+    margin-left: -25px;
+    position: absolute;
+    /* transition: all .7s; */
+    
+    
+}
+
+.dropdown-list-items{
+margin: 10px;
+}
+
+.dorpdown-list-item-a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.list-item::after{
+    margin-top: 3px;
+    margin-left: 10px;
+    color: white;
+    position: absolute;
+    content: '\f105';
+    font: normal normal normal 14px/1 FontAwesome;
+} 
+
+/* .list-item:hover .dropdown-parent{
+    height: 132px;
+    border: 1px solid black;
+} */
+
+.sidelist-parent{
+    background-color: purple;
+    width: 115px;
+    height: 132px;
+    list-style-type: none;
+    margin-left: 113px;
+    margin-top: -34px;
+    position: absolute;
+    opacity: 1;
+}
+
+.sidelist-items{
+    margin: 10px;
+}
+
+.sidelist-item-a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.list-item:hover .list-items{
+    height: 400px;
+}
+
+
+
+
+.sublist-hover:hover ~  .sidelist-parent{
+    
+{
+    
+}
+.sublist-hvr{
+    position: absolute;
+}
+
+li.sublist-hvr:hover .sidelist-parent{
+    opacity: 0;
+    border: 1px solid black;
+}  
+
+.sublist-arrow{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sublist-arrow:hover ~ .sidelist-parent{
+
+}
+
+.child-a:hover{
+text-decoration: none;
+color: red;
+}
+
+div{
+    background-color: brown;
+    text-decoration: none;
+    color: red;
+} */
